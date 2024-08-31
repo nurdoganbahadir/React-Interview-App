@@ -10,23 +10,20 @@ function AboutModal() {
 
   return (
     <>
-      <Button variant="primary" onClick={handleShow}>
-        Launch demo modal
+      <Button variant="warning" onClick={handleShow} className="">
+        About React
       </Button>
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>Modal heading</Modal.Title>
+          <Modal.Title>About React</Modal.Title>
         </Modal.Header>
-        <Modal.Body>Woohoo, you are reading this text in a modal!</Modal.Body>
-        <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
-            Close
-          </Button>
-          <Button variant="primary" onClick={handleClose}>
-            Save Changes
-          </Button>
-        </Modal.Footer>
+        <Modal.Body>
+          ReactJS, also known as React, is a popular JavaScript library for
+          building user interfaces. It is also referred to as a front-end
+          JavaScript library. It was developed by Facebook and is widely used
+          for creating dynamic and interactive web applications.
+        </Modal.Body>
       </Modal>
     </>
   );

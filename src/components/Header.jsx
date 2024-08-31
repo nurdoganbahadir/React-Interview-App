@@ -3,11 +3,9 @@ import AboutModal from "./AboutModal";
 
 const Header = () => {
   return (
-    <div className="header">
-      <h1>
-        REACT Interview Ouestions And Answers
-        <AboutModal />
-      </h1>
+    <div className="header text-danger text-center py-3">
+      <h1>REACT Interview Ouestions And Answers</h1>
+      <AboutModal />
     </div>
   );
 };
