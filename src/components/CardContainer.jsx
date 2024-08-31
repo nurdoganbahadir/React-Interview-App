@@ -1,13 +1,14 @@
 import React from "react";
 import InterviewCard from "./InterviewCard";
 import Container from "react-bootstrap/Container";
-import questions from "../helper/data";
+import data from "../helper/data";
 
 const CardContainer = () => {
-
   return (
     <Container>
-      <InterviewCard data={questions} />
+      {data.map((item) => (
+        <InterviewCard key={item.id} item={item} />
+      ))}
     </Container>
   );
 };
