@@ -1,9 +1,18 @@
-import React from 'react'
+import React, { useState } from "react";
 
-const InterviewCard = () => {
+const InterviewCard = ({ data }) => {
+  const [answer, setAnswer] = useState(false);
+
   return (
-    <div>InterviewCard</div>
-  )
-}
+    <>
+      {data.map((item) => (
+        <div className="cards" key={item.id}>
+          <li>{item.question}</li>
+          <button>asdgasdg</button>
+        </div>
+      ))}
+    </>
+  );
+};
 
-export default InterviewCard
+export default InterviewCard;
