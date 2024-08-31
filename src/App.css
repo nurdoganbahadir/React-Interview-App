@@ -1,3 +1,13 @@
-.header{
-    background-color: rgba(0, 0, 0, 0.336);
+.header {
+  background-color: rgba(0, 0, 0, 0.336);
+}
+.my-modal {
+  color: white;
+  overflow: hidden;
+}
+.modal-title {
+  background-color: rgb(2, 97, 160);
+}
+.modal-body {
+  background-color: rgb(2, 97, 160);
 }

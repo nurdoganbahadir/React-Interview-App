@@ -14,11 +14,11 @@ function AboutModal() {
         About React
       </Button>
 
-      <Modal show={show} onHide={handleClose}>
-        <Modal.Header closeButton>
+      <Modal show={show} onHide={handleClose} className="my-modal">
+        <Modal.Header className="modal-title" closeButton>
           <Modal.Title>About React</Modal.Title>
         </Modal.Header>
-        <Modal.Body>
+        <Modal.Body className="modal-body">
           ReactJS, also known as React, is a popular JavaScript library for
           building user interfaces. It is also referred to as a front-end
           JavaScript library. It was developed by Facebook and is widely used
