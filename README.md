@@ -1,4 +1,4 @@
-# Hi I'm Nurdoğan Bahadır 👋. Welcome to my Todo App Project with React.
+# Hi I'm Nurdoğan Bahadır 👋. Welcome to my Interview App Project with React.
 
 This project was developed with react. The aim of the project is that the user can access react interview questions and answers.
 
